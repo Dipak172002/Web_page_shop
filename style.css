@@ -1,0 +1,421 @@
+#header {
+    display: flex;
+    background-color: rgb(9, 178, 167);
+    position: relative;
+    margin-top: 0%;
+    height: 112px;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    padding: 0px;
+    box-shadow: 0 10px 15px rgb(35, 110, 135);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo img {
+    width: 129px;
+    height: 105px;
+   margin-left: 10px;
+   padding: 3px;
+
+}
+
+.nav ul {
+    display: flex;
+    margin-top: 30px;
+    align-content: center;
+
+
+
+
+
+}
+
+.nav ul li {
+    margin: 20px;
+    list-style-type: none;
+    position: relative;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.nav {
+    display: flex;
+    margin-right: 50px;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+.icon {
+    align-content: center;
+    justify-content: center;
+
+}
+
+a:hover{
+
+    color: rgb(252, 252, 252);
+
+}
+
+#hero {
+    background-image: url(img/christmas-present-shopping-cart.jpg);
+
+    height: 100vh;
+    background-size: cover;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    padding: 0px 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#hero h4 {
+    font-size: 40px;
+    margin: 16px 5px;
+}
+
+#hero h2 {
+    font-size: 60px;
+    margin: 0%;
+}
+
+#hero h1 {
+    font-size: 60px;
+    color: rgb(9, 116, 116);
+    margin: 0%;
+}
+
+#hero p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#hero button {
+    font-size: 17px;
+    font-weight: 900;
+    color: rgb(1, 1, 1);
+    background-image: url(img/wooden-natural-floor-decoration-concept.jpg);
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-top: 24px;
+    margin-left: 40px;
+    justify-content: center;
+}
+#hero button:hover{
+    color:rgb(6, 109, 90);
+}
+
+#features {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+#features .f-box {
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 15px;
+    border: 1px solid rgb(130, 185, 203);
+    margin: 10px 0;
+    transition: box-shadow 0.;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 800;
+}
+#features .f-box img{
+    width: 140px;
+    height: 140px;
+    text-align: center;   
+   justify-content: center;
+}
+#features .f-box :hover{
+    box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.1);
+}
+#features .f-box h6 {
+    display: inline-block;
+    padding: px 8px 6px 8px;
+    line-height: 0;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #000000;
+  }
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 60px;
+}
+#Product h1{
+    text-align: center;
+    font-weight: 1000;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Product p{
+    text-align: center;
+    margin: 22px;
+}
+.cloths{
+    width: 240px;
+    border: 1px solid #ebebeb;
+    padding: 13px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: box-shadow 0.2s;
+}
+.cloths :hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+.cloths img{
+    width: 100%;
+    border-radius: 25px;
+}
+.cloths h3{
+    color: #a27f7f;
+    font-weight: 900;
+    line-height: 30px;
+    padding-left: 90px;
+}
+.cloths h4{
+    font-size: 18px;
+}
+.stars{
+    color: rgb(222, 164, 17);
+    padding: 6px 0;
+}
+.price{
+    color: rgb(27, 152, 171);
+    padding: 4px 0;
+}
+.buy-icon{
+    color: rgb(27, 152, 171);
+    background-color: #c7e9e75e;
+    padding:  17px;
+    border-radius: 50px;
+    position: absolute;
+    right: 5px;
+    bottom: 29px;
+}
+#names{
+    width: 100%;
+    height:40vh;
+    background-size: cover;
+    background-image: url(img/banner/b2.jpg);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.aad h3{
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.aad h1{
+    padding: 20px 10px;
+    font-size: 30px;
+}
+button.view{
+    border-radius: 6px;
+    padding: 2px 25px;
+    background-color: #ffffff;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button.view:hover{
+    background-color: #0c8a8f;
+    color: #ffffff;
+}
+#banners{
+    margin: 0 60px;
+}
+#banners h2,h4,span{
+    color: rgb(0, 0, 0);
+}
+.big-banners{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.big-banners div{
+    min-width: 580px;
+    height: 300px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px;
+    background-size: cover;
+}
+.btn-banner{
+    margin-top: 20px;
+    padding: 7px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(248, 248, 248);
+  border: 1px solid rgb(248, 248, 248);
+  transition: 0.3s ease;
+
+}
+.btn-banner:hover{
+
+    background-color: #13aba0;
+    border: 2px solid #ffffff;;
+}
+.big-banners-1{
+    background-image:url(img/banner/b17.jpg);
+}
+.big-banners-2{
+    background-image:url(img/banner/b10.jpg);
+}
+.small-banners-1{
+    background-image:url(img/banner/b7.jpg);
+}
+.small-banners-2{
+    background-image:url(img/banner/b4.jpg);
+}
+.small-banners-3{
+    background-image:url(img/banner/b18.jpg);
+}
+.small-banners{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.small-banners div{
+    min-width: 370px;
+    height: 200px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 25px;
+    background-size: cover;
+}
+.small-banners h2{
+    font-size: 25px;
+    
+}
+.small-banners h5{
+    color: #540707;
+    
+}
+#name{
+    background-image: url(img/banner/b1.jpg);
+    height:30vh;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 75px;
+    margin-top: 10px;
+
+}
+.newletter h3{
+    font-size: 30px;
+    padding: 0 0 15px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.newletter h1{
+    font-size: 22px;
+    color: rgb(194, 184, 184);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.newletter span{
+    font-size: 22px;
+    color: rgb(216, 182, 29);
+    margin-left: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form input{
+    padding: 15px;
+    width: 350px;
+    height: 16px;
+    background-color: #d1d0d0;
+    border-radius: 6px 0 0 6px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    margin-top: 75px;
+    margin-right: -4px;
+}
+.form button{
+    margin-left: 0;
+    padding: 15px;
+    border: none;
+    width: 120px;
+    background-color: #088178;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    
+}
+#footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 75px;
+    background-color: #ececec;
+}
+
+#footer p, #footer a{
+    color: rgb(109, 109, 109);
+    text-decoration: none;
+}
+#footer .a:hover{
+    color: #088;
+}
+.about a{
+    display: block;
+    padding: 0 8px;
+}
+.myaccount a{
+    display: block;
+    padding: 0 8px;
+}
+.dowload img{
+    border: 1px solid #08817969;
+    border-radius: 7px;
+}
+.contact img{
+    width: 220px;
+    box-shadow: 6px 13px 80px #000000;
+}
+.contact img:hover{
+    box-shadow: 6px 13px 80px #115478;
+}
